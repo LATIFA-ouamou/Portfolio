@@ -1,16 +1,13 @@
-// export default function Footer() {
-//   return (
-//     <footer className="py-6 text-center text-sm bg-slate-900 text-slate-300">
-//       © 2026 Portfolio – Développeuse Full-Stack Junior
-//     </footer>
-//   );
-// }
-
-
 export default function Footer() {
   return (
-    <footer className="text-center py-8 bg-slate-900 text-slate-400">
-      © 2026 Latifa — Tous droits réservés
+    <footer className="bg-[#0f0704] border-t border-amber-900/20 py-10 text-center text-gray-500">
+      <p className="text-sm">
+        © 2026 <span className="text-amber-400 font-medium">Latifa Ouamou</span>
+      </p>
+
+      <p className="text-xs mt-2 text-gray-600">
+        Développeuse Full-Stack — React & Laravel
+      </p>
     </footer>
   );
 }
